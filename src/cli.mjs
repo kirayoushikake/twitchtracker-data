@@ -108,9 +108,10 @@ function normalize(raw, t) {
     started: raw.timestamps?.[0] || "",
     ended: raw.timestamps?.[1] || "",
   };
-  const titles = parseTimed(raw.titleChangesSection).length
-    ? parseTimed(raw.titleChangesSection)
-    : parseTimed(raw.bodyText);
+  const parsedTitles = parseTimed(raw.titleChangesSection).filter((x) => x.title && !/^\d{2}:\d{2}$/.test(x.title) && x.title !== "Start");
+  const titles = parsedTitles.length
+    ? parsedTitles
+    : [];
   const marker = [];
   let previousMinute = -1;
   for (const x of titles) {
@@ -122,6 +123,13 @@ function normalize(raw, t) {
     marker.push({ ms, time: x.time, label: x.title });
     previousMinute = minute;
   }
+  const plotMarkers = (raw.plotLines || [])
+    .filter((x) => x.label && x.label !== "Start" && Number.isFinite(Number(x.value)))
+    .map((x) => ({ ms: Number(x.value), time: localLabel(Number(x.value)), label: x.label }));
+  const parsedGames = raw.games?.length ? raw.games : parseGames(raw);
+  const games = parsedGames.length
+    ? parsedGames
+    : plotMarkers.map((x) => ({ name: x.label, avgViewers: null, peakViewers: null, duration: "", followersGained: null, followersPerHour: null, hoursWatched: null, url: "" }));
   return {
     sourceUrl: t.url,
     channelSlug: t.slug,
@@ -137,10 +145,12 @@ function normalize(raw, t) {
     plotLines: raw.plotLines || [],
     titleChanges: titles,
     currentTitle: titles.at(-1)?.title || "",
-    games: raw.games?.length ? raw.games : parseGames(raw),
+    games,
     clips: raw.clips || [],
-    contentMarkers: marker.length
-      ? marker
+    contentMarkers: plotMarkers.length
+      ? plotMarkers
+      : marker.length
+        ? marker
       : [{ ms: v[0].x, time: localLabel(v[0].x), label: "未标注内容" }],
   };
 }
