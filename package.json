@@ -1,0 +1,6 @@
+{
+  "name": "twitchtracker-data",
+  "private": true,
+  "type": "module",
+  "scripts": {"run": "node src/cli.mjs"}
+}
