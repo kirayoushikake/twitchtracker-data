@@ -2,5 +2,5 @@
   "name": "twitchtracker-data",
   "private": true,
   "type": "module",
-  "scripts": {"run": "node src/cli.mjs"}
+  "scripts": {"run": "node src/cli.mjs", "test": "node --test tests/*.test.mjs"}
 }

@@ -3,4 +3,4 @@ output/*
 !output/examples/
 *.inspect.ndjson
 *.png
-
+!docs/*.png

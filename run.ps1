@@ -2,7 +2,7 @@ param(
   [Parameter(Position=0)][string]$Url,
   [string]$InputJson,
   [string]$OutputDir = (Join-Path $PSScriptRoot 'output'),
-  [ValidateSet(0,30,90,180)][int]$Days = 30,
+  [ValidateRange(0,2147483647)][int]$Days = 30,
   [string]$CdpUrl,
   [switch]$Headed,
   [switch]$Quick

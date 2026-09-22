@@ -1,16 +1,19 @@
 import fs from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { chromium } from "playwright";
 import { SpreadsheetFile, Workbook } from "@oai/artifact-tool";
+import { readHistory, selectHistory, detailSheetName } from './history.mjs';
 
 const ROOT = path.resolve(
-  path.dirname(new URL(import.meta.url).pathname),
+  path.dirname(fileURLToPath(import.meta.url)),
   "..",
 );
 const REDS = new Set(["#e74c3c", "rgb(231,76,60)", "rgb(231, 76, 60)"]);
 const clean = (v) => String(v ?? "").trim();
 const num = (v) => {
   const s = clean(v).replace(/,/g, "");
+  if (!s) return null;
   if (/^[-+]?\d+(\.\d+)?k$/i.test(s)) return parseFloat(s) * 1000;
   if (/^[-+]?\d+(\.\d+)?m$/i.test(s)) return parseFloat(s) * 1e6;
   const n = Number(s);
@@ -29,6 +32,8 @@ const localLabel = (ms) =>
   new Date(ms + 8 * 3600000).toISOString().slice(11, 16);
 const dateLabel = (ms) => new Date(ms + 8 * 3600000).toISOString().slice(0, 10);
 const durationHours = (value) => {
+  if (value == null || clean(value) === '') return null;
+  if (/^\d+(\.\d+)?$/.test(clean(value))) return Number(value) / 60;
   const h = String(value || "").match(/(\d+)h/),
     m = String(value || "").match(/(\d+)m/);
   return (h ? Number(h[1]) : 0) + (m ? Number(m[1]) : 0) / 60;
@@ -51,8 +56,11 @@ function target(url) {
 function parseTimed(text) {
   const a = lines(text),
     o = [];
-  for (let i = 0; i < a.length - 1; i++)
-    if (/^\d{2}:\d{2}$/.test(a[i])) o.push({ time: a[i], title: a[i + 1] });
+  for (let i = 0; i < a.length; i++) {
+    const inline = a[i].match(/^(\d{2}:\d{2})\s+(.+)$/);
+    if (inline) o.push({time:inline[1],title:inline[2]});
+    else if (/^\d{2}:\d{2}$/.test(a[i]) && a[i+1] && !/^\d{2}:\d{2}$/.test(a[i+1])) o.push({ time: a[i], title: a[i + 1] });
+  }
   return o;
 }
 function parseGames(raw) {
@@ -82,6 +90,11 @@ function parseGames(raw) {
   return out;
 }
 function normalize(raw, t) {
+  const titleSection = raw.bodyText?.split('STREAM TITLE CHANGES')[1]?.split('PLAYED GAMES')[0] || '';
+  const gameSection = raw.bodyText?.split('PLAYED GAMES')[1]?.split('VIDEO')[0] || '';
+  raw = { ...raw, titleChangesSection: titleSection || raw.titleChangesSection,
+    gameSectionText: raw.gameSectionText || gameSection,
+    gameLinks: raw.gameLinks?.length ? raw.gameLinks : [...new Set((raw.plotLines || []).map(p=>p.label))].map(text=>({text,href:''})) };
   const a = lines(raw.bodyText),
     v = raw.series?.find((x) => /Concur.*Viewers/i.test(x.name))?.points || [],
     f = (
@@ -92,7 +105,11 @@ function normalize(raw, t) {
         ? -Math.abs(p.y || 0)
         : p.y || 0,
     }));
-  if (!v.length) throw Error("没有读取到 Concur. Viewers series");
+  if (!v.length && !raw.chartUnavailable) throw Error("没有读取到 Concur. Viewers series");
+  const pageDate = a.find(x => /^STREAM ON /i.test(x))?.replace(/^STREAM ON /i, '');
+  const pageTime = raw.timestamps?.[0]?.match(/\d{2}:\d{2}/)?.[0];
+  const startMs = v[0]?.x ?? Date.parse(`${pageDate} ${pageTime} GMT+0800`);
+  if (!Number.isFinite(startMs)) throw Error('缺少有效开播时间');
   const summary = {
     rank: num(a[a.findIndex((x) => x === "RANK") + 1]),
     duration: before(a, "Stream duration"),
@@ -112,13 +129,17 @@ function normalize(raw, t) {
   const titles = parsedTitles.length
     ? parsedTitles
     : [];
+  if (!titles.length) {
+    const single = raw.bodyText?.split('STREAM TITLE\n')[1]?.split('PLAYED GAMES')[0]?.trim();
+    if (single) titles.push({time:localLabel(startMs),title:single});
+  }
   const marker = [];
   let previousMinute = -1;
   for (const x of titles) {
     const [hh, mm] = x.time.split(":").map(Number);
     const minute = hh * 60 + mm;
     const dayOffset = minute < previousMinute ? 1 : 0;
-    const base = marker.length ? marker.at(-1).ms + dayOffset * 86400000 : Date.parse(`${dateLabel(v[0].x)}T${x.time}:00+08:00`);
+    const base = marker.length ? marker.at(-1).ms + dayOffset * 86400000 : Date.parse(`${dateLabel(startMs)}T${x.time}:00+08:00`);
     const ms = marker.length ? Date.parse(`${dateLabel(base)}T${x.time}:00+08:00`) : base;
     marker.push({ ms, time: x.time, label: x.title });
     previousMinute = minute;
@@ -130,6 +151,7 @@ function normalize(raw, t) {
   const games = parsedGames.length
     ? parsedGames
     : plotMarkers.map((x) => ({ name: x.label, avgViewers: null, peakViewers: null, duration: "", followersGained: null, followersPerHour: null, hoursWatched: null, url: "" }));
+  if (!plotMarkers.length && games.length === 1) plotMarkers.push({ms:startMs,time:localLabel(startMs),label:games[0].name});
   return {
     sourceUrl: t.url,
     channelSlug: t.slug,
@@ -140,6 +162,8 @@ function normalize(raw, t) {
     pageTitle: raw.title || "",
     description: raw.description || "",
     summary,
+    startMs,
+    chartUnavailable: Boolean(raw.chartUnavailable),
     viewerPoints: v,
     followerPoints: f,
     plotLines: raw.plotLines || [],
@@ -151,11 +175,11 @@ function normalize(raw, t) {
       ? plotMarkers
       : marker.length
         ? marker
-      : [{ ms: v[0].x, time: localLabel(v[0].x), label: "未标注内容" }],
+      : [{ ms: startMs, time: localLabel(startMs), label: "未标注内容" }],
   };
 }
-async function rawPage(page) {
-  return page.evaluate(() => {
+async function rawPage(page, allowNoChart = false) {
+  return page.evaluate((allowNoChart) => {
     const clean = (x) => String(x || "").trim(),
       section = (h) => {
         const e = [...document.querySelectorAll("h4")].find(
@@ -171,7 +195,8 @@ async function rawPage(page) {
     const c = window.Highcharts?.charts?.find(
       (x) => x?.renderTo?.id === "chart-stream",
     );
-    if (!c) throw Error("页面没有 chart-stream");
+    const chartUnavailable = !c && !document.querySelector('#chart-stream') && /STREAM SUMMARY/.test(document.body.innerText);
+    if (!c && !(allowNoChart && chartUnavailable)) throw Error("页面没有 chart-stream");
     const gs =
       document.querySelector("#stream-games") ||
       [...document.querySelectorAll("section")].find((x) =>
@@ -179,6 +204,8 @@ async function rawPage(page) {
       );
     return {
       sourceUrl: location.href,
+      chartUnavailable,
+      capturedAt: new Date().toISOString(),
       bodyText: document.body.innerText,
       title: document.title,
       description:
@@ -187,11 +214,11 @@ async function rawPage(page) {
       timestamps: [...document.querySelectorAll(".stream-timestamp-dt")].map(
         (x) => clean(x.innerText),
       ),
-      series: (c.series || []).map((s) => ({
+      series: (c?.series || []).map((s) => ({
         name: s.name,
         points: (s.points || []).map((p) => ({ x: p.x, y: p.y, color: p.color })),
       })),
-      plotLines: (c.xAxis?.[0]?.plotLinesAndBands || []).map((b) => ({
+      plotLines: (c?.xAxis?.[0]?.plotLinesAndBands || []).map((b) => ({
         value: b.options?.value,
         label: b.options?.label?.text || b.label?.text?.textStr || "",
       })),
@@ -204,14 +231,14 @@ async function rawPage(page) {
         : [],
       clips: [],
     };
-  });
+  }, allowNoChart);
 }
 async function openBrowser(headed, cdpUrl) {
   if (cdpUrl) return { browser: await chromium.connectOverCDP(cdpUrl), remote: true };
   return { browser: await chromium.launch({ headless: !headed, channel: "msedge" }), remote: false };
 }
 async function closeBrowser(browser, remote) {
-  if (remote) return;
+  // For a CDP connection this disconnects without closing the user's Edge.
   await browser.close();
 }
 async function getCapturePage(browser, remote) {
@@ -224,7 +251,7 @@ async function getCapturePage(browser, remote) {
     const ready = pages.find((p) => p.url().includes("/streams/") && p.url().includes("twitchtracker.com"));
     if (ready) return ready;
   }
-  return browser.newPage();
+  return remote ? browser.contexts()[0].newPage() : browser.newPage();
 }
 async function capture(t, headed, cdpUrl) {
   const { browser, remote } = await openBrowser(headed, cdpUrl);
@@ -278,43 +305,35 @@ async function captureWindow(t, headed, windowDays = 30, cdpUrl) {
     };
     await open(t.url);
     const first = normalize(await rawPage(page), t);
+    if (windowDays === 0) return [first];
     await page.goto(`https://twitchtracker.com/${t.slug}/streams`, {
       waitUntil: "domcontentloaded",
       timeout: 60000,
     });
-    const urls = await page.evaluate(
-      (slug) =>
-        [...document.querySelectorAll("a[href]")]
-          .map((a) => a.href)
-          .filter((x) =>
-            new RegExp(
-              `^https://twitchtracker\\.com/${slug}/streams/\\d+$`,
-              "i",
-            ).test(x),
-          ),
-      t.slug,
-    );
-    const uniq = [...new Set(urls)];
+    const listing = await readHistory(page, t.slug);
     const anchor = first.viewerPoints[0]?.x || Date.now();
-    if (windowDays === 0) return [first];
     const cutoff = anchor - windowDays * 86400000;
+    const selected = selectHistory(listing.rows, cutoff, anchor);
+    const uniq = [...new Set(selected.map(row=>row.url))];
     const out = [first];
+    const failures = [];
     for (const url of uniq) {
-      if (out.length >= 40) break;
       const tt = target(url);
       if (tt.id === t.id) continue;
       try {
         await open(url);
-        const d = normalize(await rawPage(page), tt);
-        if (
-          (d.viewerPoints[0]?.x || 0) >= cutoff &&
-          (d.viewerPoints[0]?.x || 0) <= anchor + 86400000
-        )
-          out.push(d);
+        const raw = await rawPage(page);
+        if(new URL(raw.sourceUrl).pathname!==new URL(url).pathname) throw Error('页面 URL 与目标场次不一致');
+        const d = normalize(raw, tt);
+        const listedStart=Date.parse(selected.find(row=>row.url===url).utc.replace(' ','T')+'Z');
+        if(Math.abs(d.startMs-listedStart)>60000) throw Error('开播时间与历史列表不一致');
+        out.push(d);
       } catch (error) {
+        failures.push({url,error:error.message});
         console.error(`跳过历史场次 ${url}: ${error.message}`);
       }
     }
+    if(failures.length) throw Error(`${failures.length} 场未采集成功，不能导出完整窗口：${failures.map(f=>f.url).join(', ')}`);
     return out.sort(
       (a, b) => (b.viewerPoints[0]?.x || 0) - (a.viewerPoints[0]?.x || 0),
     );
@@ -475,7 +494,7 @@ async function workbook(submitted, records, outDir, quick) {
   return out;
 }
 function addFullDetail(wb, d, index) {
-  const prefix = `${String(index).padStart(2, "0")}_${dateLabel(d.viewerPoints[0]?.x || Date.now()).slice(5)}_${localLabel(d.viewerPoints[0]?.x || Date.now()).replace(":", "")}`;
+  const prefix = detailSheetName(index, d);
   const overview = wb.worksheets.add(`${prefix}_网页概览`.slice(0, 31)),
     chart = wb.worksheets.add(`${prefix}_图表数据`.slice(0, 31)),
     meta = wb.worksheets.add(`${prefix}_页面元数据`.slice(0, 31));
@@ -859,7 +878,7 @@ function addFullDetail(wb, d, index) {
 }
 
 function addCombinedDetail(wb, d, index) {
-  const base = `${String(index).padStart(2, "0")}_${dateLabel(d.viewerPoints[0]?.x || Date.now()).slice(5)}_${localLabel(d.viewerPoints[0]?.x || Date.now()).replace(":", "")}`;
+  const base = detailSheetName(index, d);
   const s = wb.worksheets.add(base.slice(0, 31));
   s.showGridLines = false;
   const title = (row, end, text) => { s.getRange(`A${row}:${end}${row}`).merge(); s.getRange(`A${row}`).values = [[text]]; s.getRange(`A${row}:${end}${row}`).format = { fill: "#112B4C", font: { bold: true, color: "#FFFFFF", size: 15 } }; };
@@ -882,6 +901,14 @@ function addCombinedDetail(wb, d, index) {
   band(r, "J", d.titleChanges.length > 1 ? "STREAM TITLE CHANGES" : "STREAM TITLE"); r++;
   const trs = d.titleChanges.length ? d.titleChanges : [{ time: localLabel(d.viewerPoints[0]?.x || Date.now()), title: d.currentTitle }]; s.getRange(`A${r}:B${r}`).values = [["Time (UTC+8)", "Title"]]; s.getRange(`A${r}:B${r}`).format = { fill: "#1E3A5F", font: { bold: true, color: "#FFFFFF" } }; s.getRange(`A${r + 1}:B${r + trs.length}`).values = trs.map(x => [x.time, x.title]); r += trs.length + 3;
   band(r, "J", "VIDEO & CLIPS"); r++; s.getRange(`A${r}:D${r + 1}`).values = [["VOD", "Find VOD for this stream", "CLIPS", d.clips?.length ? `${d.clips.length} clips found` : "No clips found"], ["Stream ID", d.streamId, "Channel", `https://twitchtracker.com/${d.channelSlug}`]]; r += 4;
+  if(d.chartUnavailable) {
+    band(r, 'J', 'CHART DATA · CCV & FOLLOWERS GAIN'); r++;
+    s.getRange(`A${r}:J${r}`).merge(); s.getRange(`A${r}`).values=[['网站未提供 CCV / Followers 时间序列。保留网页概览，不补造数据点或曲线。']]; r+=3;
+    band(r, 'J', 'PAGE METADATA & CAPTURE NOTES'); r++;
+    const meta=[['Page title',d.pageTitle],['Meta description',d.description],['Source URL',d.sourceUrl],['Channel',d.channelSlug],['Channel ID',d.channelId],['Channel created at',d.channelCreatedAt],['Stream ID',d.streamId],['Started (UTC+8)',d.summary.started],['Ended (UTC+8)',d.summary.ended],['CCV availability','网站未提供时间序列']];
+    for(const [i,row] of meta.entries()) {s.getRange(`A${r+i}`).values=[[row[0]]];s.getRange(`B${r+i}:J${r+i}`).merge();s.getRange(`B${r+i}`).values=[[row[1]]];s.getRange(`A${r+i}:J${r+i}`).format={wrapText:true,rowHeight:34};}
+    return s;
+  }
   band(r, "T", "CHART DATA · CCV & FOLLOWERS GAIN"); r += 2;
   const startChart = r; s.getRange(`A${r}:G${r}`).values = [["Local time (UTC+8)", "UTC time", "CCV count", "Followers Gain", "Content segment", "Minutes from start", "Source URL"]];
   const end = r + d.viewerPoints.length; s.getRange(`A${r + 1}:G${end}`).values = d.viewerPoints.map((p, i) => [localLabel(p.x), new Date(p.x), p.y, d.followerPoints[i]?.y ?? 0, contentAt(d.contentMarkers, p.x), Number(((p.x - d.viewerPoints[0].x) / 60000).toFixed(1)), d.sourceUrl]); s.getRange(`A${r}:G${r}`).format = { fill: "#1E3A5F", font: { bold: true, color: "#FFFFFF" } }; s.getRange(`B${r + 1}:B${end}`).format.numberFormat = "yyyy-mm-dd hh:mm"; s.getRange(`F${r + 1}:F${end}`).format.numberFormat = "0.0";
@@ -931,7 +958,7 @@ async function workbookFull(submitted, records, outDir, quick, windowDays) {
     borders: { preset: "inside", style: "thin", color: "#D7E1EA" },
   };
   sum.getRange(`E2:E${rows.length + 1}`).format.numberFormat = "0.0";
-  sum.freezePanes.freezeRows(1);
+  sum.freezePanes.unfreeze();
   sum.getRange("A:J").format.columnWidth = 18;
   sum.getRange("B:B").format.columnWidth = 24;
   sum.getRange("C:C").format.columnWidth = 48;
@@ -950,7 +977,7 @@ async function workbookFull(submitted, records, outDir, quick, windowDays) {
   if (!quick) {
     for (const s of [
       `${windowDays}天汇总`,
-      ...records.slice(0, 1).map((d, i) => `${String(i + 1).padStart(2, "0")}_${dateLabel(d.viewerPoints[0]?.x || Date.now()).slice(5)}_${localLabel(d.viewerPoints[0]?.x || Date.now()).replace(":", "")}`.slice(0, 31)),
+      ...records.slice(0, 1).map((d, i) => detailSheetName(i + 1, d)),
     ]) {
       const p = await wb.render({
         sheetName: s,
@@ -987,6 +1014,7 @@ function args(argv) {
     else if (a === "--days") o.days = Number(argv[++i]);
     else if (a === "--cdp-url") o.cdpUrl = argv[++i];
   }
+  if(!Number.isInteger(o.days) || o.days<0) throw Error('--days 必须是非负整数');
   return o;
 }
 async function main() {
@@ -1017,7 +1045,8 @@ async function main() {
     ),
   );
 }
-main().catch((e) => {
+export { normalize, rawPage, workbookFull, addCombinedDetail, target };
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main().catch((e) => {
   console.error(`导出失败: ${e.message}`);
   process.exitCode = 1;
 });

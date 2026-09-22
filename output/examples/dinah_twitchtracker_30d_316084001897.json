@@ -1,0 +1,4579 @@
+{
+  "submitted": {
+    "sourceUrl": "https://twitchtracker.com/dinah/streams/316084001897",
+    "channelSlug": "dinah",
+    "streamId": "316084001897",
+    "channelName": "dinah",
+    "channelId": 764755560,
+    "channelCreatedAt": "2022-01-22",
+    "pageTitle": "Dinah - Stream Sep 19, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+    "description": "Dinah stream on 2026-09-19 15:45:20 - evaluate stats, view chart, watch VOD.",
+    "summary": {
+      "rank": 1660,
+      "duration": "289",
+      "avgViewers": 1993,
+      "peakViewers": 2230,
+      "hoursWatched": 9599,
+      "followersGained": 189,
+      "followersPerHour": 39.2,
+      "streamDate": "2026-09-19",
+      "started": "2026-09-19 23:45:20",
+      "ended": "2026-09-20 04:35:00"
+    },
+    "startMs": 1789832720000,
+    "chartUnavailable": false,
+    "viewerPoints": [
+      {
+        "x": 1789832720000,
+        "y": 0,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789833000000,
+        "y": 236,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789833600000,
+        "y": 1184,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789834200000,
+        "y": 1641,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789834800000,
+        "y": 1792,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789835400000,
+        "y": 1912,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789836000000,
+        "y": 1936,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789836600000,
+        "y": 2105,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789837200000,
+        "y": 1872,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789837800000,
+        "y": 1938,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789838400000,
+        "y": 1932,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789839000000,
+        "y": 2156,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789839600000,
+        "y": 2000,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789840200000,
+        "y": 2074,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789840800000,
+        "y": 2007,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789841400000,
+        "y": 2156,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789842000000,
+        "y": 2025,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789842600000,
+        "y": 2173,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789843200000,
+        "y": 2019,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789843800000,
+        "y": 2190,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789844400000,
+        "y": 2055,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789845000000,
+        "y": 2115,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789845600000,
+        "y": 1857,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789846200000,
+        "y": 2109,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789846800000,
+        "y": 2004,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789847400000,
+        "y": 2160,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789848000000,
+        "y": 1947,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789848600000,
+        "y": 2230,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789849200000,
+        "y": 2030,
+        "color": "#18BC9C"
+      },
+      {
+        "x": 1789849800000,
+        "y": 2198,
+        "color": "#18BC9C"
+      }
+    ],
+    "followerPoints": [
+      {
+        "x": 1789832720000,
+        "y": 0,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789833000000,
+        "y": 0,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789833600000,
+        "y": 0,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789834200000,
+        "y": 0,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789834800000,
+        "y": 12,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789835400000,
+        "y": 5,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789836000000,
+        "y": 10,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789836600000,
+        "y": 7,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789837200000,
+        "y": 7,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789837800000,
+        "y": 2,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789838400000,
+        "y": 4,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789839000000,
+        "y": 6,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789839600000,
+        "y": 6,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789840200000,
+        "y": 9,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789840800000,
+        "y": 7,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789841400000,
+        "y": 28,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789842000000,
+        "y": 29,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789842600000,
+        "y": 8,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789843200000,
+        "y": 6,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789843800000,
+        "y": 11,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789844400000,
+        "y": 5,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789845000000,
+        "y": 5,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789845600000,
+        "y": 2,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789846200000,
+        "y": 2,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789846800000,
+        "y": 0,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789847400000,
+        "y": 5,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789848000000,
+        "y": 3,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789848600000,
+        "y": 3,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789849200000,
+        "y": 3,
+        "color": "#3498DB"
+      },
+      {
+        "x": 1789849800000,
+        "y": 4,
+        "color": "#3498DB"
+      }
+    ],
+    "plotLines": [
+      {
+        "value": 1789832720000,
+        "label": "Just Chatting"
+      },
+      {
+        "value": 1789837200000,
+        "label": "World of Warcraft"
+      }
+    ],
+    "titleChanges": [
+      {
+        "time": "23:45",
+        "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+      },
+      {
+        "time": "01:00",
+        "title": "[DROPS] FIRST WOW PLAYTHROUGH EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+      }
+    ],
+    "currentTitle": "[DROPS] FIRST WOW PLAYTHROUGH EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+    "games": [
+      {
+        "name": "Just Chatting",
+        "avgViewers": 1762,
+        "peakViewers": 2105,
+        "duration": "1h14m",
+        "followersGained": 34,
+        "followersPerHour": 27.6,
+        "hoursWatched": 2200,
+        "url": "https://twitchtracker.com/dinah/games/509658"
+      },
+      {
+        "name": "World of Warcraft",
+        "avgViewers": 2057,
+        "peakViewers": 2230,
+        "duration": "3h35m",
+        "followersGained": 155,
+        "followersPerHour": 43.3,
+        "hoursWatched": 7400,
+        "url": "https://twitchtracker.com/dinah/games/18122"
+      }
+    ],
+    "clips": [],
+    "contentMarkers": [
+      {
+        "ms": 1789832720000,
+        "time": "23:45",
+        "label": "Just Chatting"
+      },
+      {
+        "ms": 1789837200000,
+        "time": "01:00",
+        "label": "World of Warcraft"
+      }
+    ],
+    "endMs": 1789850100000,
+    "live": false,
+    "listing": {
+      "url": "https://twitchtracker.com/dinah/streams/316084001897",
+      "utc": "2026-09-19 15:45",
+      "durationMinutes": 289,
+      "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+      "games": [
+        "Just Chatting",
+        "World of Warcraft"
+      ]
+    }
+  },
+  "records": [
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/316084001897",
+      "channelSlug": "dinah",
+      "streamId": "316084001897",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Sep 19, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-09-19 15:45:20 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "289",
+        "avgViewers": 1993,
+        "peakViewers": 2230,
+        "hoursWatched": 9599,
+        "followersGained": 189,
+        "followersPerHour": 39.2,
+        "streamDate": "2026-09-19",
+        "started": "2026-09-19 23:45:20",
+        "ended": "2026-09-20 04:35:00"
+      },
+      "startMs": 1789832720000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1789832720000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789833000000,
+          "y": 236,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789833600000,
+          "y": 1184,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789834200000,
+          "y": 1641,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789834800000,
+          "y": 1792,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789835400000,
+          "y": 1912,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789836000000,
+          "y": 1936,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789836600000,
+          "y": 2105,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789837200000,
+          "y": 1872,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789837800000,
+          "y": 1938,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789838400000,
+          "y": 1932,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789839000000,
+          "y": 2156,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789839600000,
+          "y": 2000,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789840200000,
+          "y": 2074,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789840800000,
+          "y": 2007,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789841400000,
+          "y": 2156,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789842000000,
+          "y": 2025,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789842600000,
+          "y": 2173,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789843200000,
+          "y": 2019,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789843800000,
+          "y": 2190,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789844400000,
+          "y": 2055,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789845000000,
+          "y": 2115,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789845600000,
+          "y": 1857,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789846200000,
+          "y": 2109,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789846800000,
+          "y": 2004,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789847400000,
+          "y": 2160,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789848000000,
+          "y": 1947,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789848600000,
+          "y": 2230,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789849200000,
+          "y": 2030,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789849800000,
+          "y": 2198,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1789832720000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789833000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789833600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789834200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789834800000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789835400000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789836000000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789836600000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789837200000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789837800000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789838400000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789839000000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789839600000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789840200000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789840800000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789841400000,
+          "y": 28,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789842000000,
+          "y": 29,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789842600000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789843200000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789843800000,
+          "y": 11,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789844400000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789845000000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789845600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789846200000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789846800000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789847400000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789848000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789848600000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789849200000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789849800000,
+          "y": 4,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1789832720000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789837200000,
+          "label": "World of Warcraft"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "23:45",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "01:00",
+          "title": "[DROPS] FIRST WOW PLAYTHROUGH EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        }
+      ],
+      "currentTitle": "[DROPS] FIRST WOW PLAYTHROUGH EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1762,
+          "peakViewers": 2105,
+          "duration": "1h14m",
+          "followersGained": 34,
+          "followersPerHour": 27.6,
+          "hoursWatched": 2200,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "World of Warcraft",
+          "avgViewers": 2057,
+          "peakViewers": 2230,
+          "duration": "3h35m",
+          "followersGained": 155,
+          "followersPerHour": 43.3,
+          "hoursWatched": 7400,
+          "url": "https://twitchtracker.com/dinah/games/18122"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1789832720000,
+          "time": "23:45",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789837200000,
+          "time": "01:00",
+          "label": "World of Warcraft"
+        }
+      ],
+      "endMs": 1789850100000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/316084001897",
+        "utc": "2026-09-19 15:45",
+        "durationMinutes": 289,
+        "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "World of Warcraft"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/316079913705",
+      "channelSlug": "dinah",
+      "streamId": "316079913705",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Sep 18, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-09-18 14:41:43 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "453",
+        "avgViewers": 1954,
+        "peakViewers": 2156,
+        "hoursWatched": 14752,
+        "followersGained": 116,
+        "followersPerHour": 15.4,
+        "streamDate": "2026-09-18",
+        "started": "2026-09-18 22:41:43",
+        "ended": "2026-09-19 06:15:00"
+      },
+      "startMs": 1789742503000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1789742503000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789743000000,
+          "y": 185,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789743600000,
+          "y": 1569,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789744200000,
+          "y": 1806,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789744800000,
+          "y": 2067,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789745400000,
+          "y": 2061,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789746000000,
+          "y": 1964,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789746600000,
+          "y": 1947,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789747200000,
+          "y": 2031,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789747800000,
+          "y": 1835,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789748400000,
+          "y": 2031,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789749000000,
+          "y": 1963,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789749600000,
+          "y": 2113,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789750200000,
+          "y": 1971,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789750800000,
+          "y": 2112,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789751400000,
+          "y": 1984,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789752000000,
+          "y": 2136,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789752600000,
+          "y": 1956,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789753200000,
+          "y": 2128,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789753800000,
+          "y": 1984,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789754400000,
+          "y": 2090,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789755000000,
+          "y": 2083,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789755600000,
+          "y": 1974,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789756200000,
+          "y": 1978,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789756800000,
+          "y": 2151,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789757400000,
+          "y": 1925,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789758000000,
+          "y": 2121,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789758600000,
+          "y": 2033,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789759200000,
+          "y": 2150,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789759800000,
+          "y": 1981,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789760400000,
+          "y": 2015,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789761000000,
+          "y": 1960,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789761600000,
+          "y": 2062,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789762200000,
+          "y": 1876,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789762800000,
+          "y": 1816,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789763400000,
+          "y": 1862,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789764000000,
+          "y": 1968,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789764600000,
+          "y": 1938,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789765200000,
+          "y": 2093,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789765800000,
+          "y": 1974,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789766400000,
+          "y": 2061,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789767000000,
+          "y": 1886,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789767600000,
+          "y": 1940,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789768200000,
+          "y": 1981,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789768800000,
+          "y": 2156,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789769400000,
+          "y": 1997,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1789742503000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789743000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789743600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789744200000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789744800000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789745400000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789746000000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789746600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789747200000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789747800000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789748400000,
+          "y": -3,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789749000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789749600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789750200000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789750800000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789751400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789752000000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789752600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789753200000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789753800000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789754400000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789755000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789755600000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789756200000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789756800000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789757400000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789758000000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789758600000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789759200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789759800000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789760400000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789761000000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789761600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789762200000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789762800000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789763400000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789764000000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789764600000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789765200000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789765800000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789766400000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789767000000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789767600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789768200000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789768800000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789769400000,
+          "y": -1,
+          "color": "#E74C3C"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1789742503000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789746600000,
+          "label": "World of Warcraft"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "22:41",
+          "title": "IF YOU PLAY WOW, CLICK HERE🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN WOW GRIND🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "23:50",
+          "title": "FIRST TIME WOW EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "00:30",
+          "title": "[DROPS] FIRST TIME WOW EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        }
+      ],
+      "currentTitle": "[DROPS] FIRST TIME WOW EVER🔴BACKSEATING NEEDED PLS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1609,
+          "peakViewers": 2067,
+          "duration": "1h8m",
+          "followersGained": 19,
+          "followersPerHour": 16.8,
+          "hoursWatched": 1800,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "World of Warcraft",
+          "avgViewers": 2007,
+          "peakViewers": 2156,
+          "duration": "6h25m",
+          "followersGained": 97,
+          "followersPerHour": 15.1,
+          "hoursWatched": 12900,
+          "url": "https://twitchtracker.com/dinah/games/18122"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1789742503000,
+          "time": "22:41",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789746600000,
+          "time": "23:50",
+          "label": "World of Warcraft"
+        }
+      ],
+      "endMs": 1789769700000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/316079913705",
+        "utc": "2026-09-18 14:41",
+        "durationMinutes": 453,
+        "title": "IF YOU PLAY WOW, CLICK HERE🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN WOW GRIND🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "World of Warcraft"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/316072422633",
+      "channelSlug": "dinah",
+      "streamId": "316072422633",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Sep 16, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-09-16 14:54:47 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "420",
+        "avgViewers": 2415,
+        "peakViewers": 3149,
+        "hoursWatched": 16905,
+        "followersGained": 263,
+        "followersPerHour": 37.6,
+        "streamDate": "2026-09-16",
+        "started": "2026-09-16 22:54:47",
+        "ended": "2026-09-17 05:55:00"
+      },
+      "startMs": 1789570487000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1789570487000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789570800000,
+          "y": 174,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789571400000,
+          "y": 1944,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789572000000,
+          "y": 2566,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789572600000,
+          "y": 2606,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789573200000,
+          "y": 2736,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789573800000,
+          "y": 3149,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789574400000,
+          "y": 2990,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789575000000,
+          "y": 2875,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789575600000,
+          "y": 2903,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789576200000,
+          "y": 2856,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789576800000,
+          "y": 3003,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789577400000,
+          "y": 2898,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789578000000,
+          "y": 3008,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789578600000,
+          "y": 2832,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789579200000,
+          "y": 2188,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789579800000,
+          "y": 2006,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789580400000,
+          "y": 2159,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789581000000,
+          "y": 1989,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789581600000,
+          "y": 2188,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789582200000,
+          "y": 1992,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789582800000,
+          "y": 2080,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789583400000,
+          "y": 1784,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789584000000,
+          "y": 2565,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789584600000,
+          "y": 2645,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789585200000,
+          "y": 2720,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789585800000,
+          "y": 2621,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789586400000,
+          "y": 2793,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789587000000,
+          "y": 2711,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789587600000,
+          "y": 2767,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789588200000,
+          "y": 2616,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789588800000,
+          "y": 2713,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789589400000,
+          "y": 2655,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789590000000,
+          "y": 2618,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789590600000,
+          "y": 2410,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789591200000,
+          "y": 2580,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789591800000,
+          "y": 2434,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789592400000,
+          "y": 1961,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789593000000,
+          "y": 1933,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789593600000,
+          "y": 2110,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789594200000,
+          "y": 1920,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789594800000,
+          "y": 2002,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789595400000,
+          "y": 1749,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1789570487000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789570800000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789571400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789572000000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789572600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789573200000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789573800000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789574400000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789575000000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789575600000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789576200000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789576800000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789577400000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789578000000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789578600000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789579200000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789579800000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789580400000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789581000000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789581600000,
+          "y": 11,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789582200000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789582800000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789583400000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789584000000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789584600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789585200000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789585800000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789586400000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789587000000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789587600000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789588200000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789588800000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789589400000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789590000000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789590600000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789591200000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789591800000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789592400000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789593000000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789593600000,
+          "y": 14,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789594200000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789594800000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789595400000,
+          "y": 7,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1789570487000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789573200000,
+          "label": "Where Winds Meet"
+        },
+        {
+          "value": 1789581000000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789583400000,
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "value": 1789593000000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789594200000,
+          "label": "GODDESS OF VICTORY: NIKKE"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "22:54",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "23:40",
+          "title": "The Story Ends Today... Hidden Mountain FINALE Chapter🔴CLICK NOW🔴DO NOT MISS THIS🔴[EN/中文/粤语]🔴#WhereWindsMeet #WWMNewEra !wwm"
+        },
+        {
+          "time": "00:10",
+          "title": "[DROPS] The Story Ends Today... Hidden Mountain FINALE Chapter🔴CLICK NOW🔴DO NOT MISS THIS🔴[EN/中文/粤语]🔴#WhereWindsMeet #WWMNewEra !wwm"
+        },
+        {
+          "time": "01:50",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "02:30",
+          "title": "CP FIRST PLAYTHROUGH🔴NO HIT ATTEMPTS🔴CLICK NOW🔴DO NOT MISS THIS🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "05:10",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        }
+      ],
+      "currentTitle": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1958,
+          "peakViewers": 2606,
+          "duration": "1h45m",
+          "followersGained": 45,
+          "followersPerHour": 25.7,
+          "hoursWatched": 3400,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Where Winds Meet",
+          "avgViewers": 2739,
+          "peakViewers": 3149,
+          "duration": "2h10m",
+          "followersGained": 103,
+          "followersPerHour": 47.5,
+          "hoursWatched": 5900,
+          "url": "https://twitchtracker.com/dinah/games/1630982727"
+        },
+        {
+          "name": "Cyberpunk 2077",
+          "avgViewers": 2537,
+          "peakViewers": 2793,
+          "duration": "2h40m",
+          "followersGained": 87,
+          "followersPerHour": 32.6,
+          "hoursWatched": 6800,
+          "url": "https://twitchtracker.com/dinah/games/65876"
+        },
+        {
+          "name": "GODDESS OF VICTORY: NIKKE",
+          "avgViewers": 1890,
+          "peakViewers": 2002,
+          "duration": "0h25m",
+          "followersGained": 28,
+          "followersPerHour": 67.2,
+          "hoursWatched": 787,
+          "url": "https://twitchtracker.com/dinah/games/512033"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1789570487000,
+          "time": "22:54",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789573200000,
+          "time": "23:40",
+          "label": "Where Winds Meet"
+        },
+        {
+          "ms": 1789581000000,
+          "time": "01:50",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789583400000,
+          "time": "02:30",
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "ms": 1789593000000,
+          "time": "05:10",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789594200000,
+          "time": "05:30",
+          "label": "GODDESS OF VICTORY: NIKKE"
+        }
+      ],
+      "endMs": 1789595700000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/316072422633",
+        "utc": "2026-09-16 14:54",
+        "durationMinutes": 420,
+        "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "Where Winds Meet",
+          "Cyberpunk 2077"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/316057891561",
+      "channelSlug": "dinah",
+      "streamId": "316057891561",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Sep 12, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-09-12 16:50:28 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "224",
+        "avgViewers": 1867,
+        "peakViewers": 2175,
+        "hoursWatched": 6970,
+        "followersGained": -24,
+        "followersPerHour": -6.4,
+        "streamDate": "2026-09-13",
+        "started": "2026-09-13 00:50:28",
+        "ended": "2026-09-13 04:35:00"
+      },
+      "startMs": 1789231828000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1789231828000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789232400000,
+          "y": 285,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789233000000,
+          "y": 1493,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789233600000,
+          "y": 1730,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789234200000,
+          "y": 1986,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789234800000,
+          "y": 1887,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789235400000,
+          "y": 2046,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789236000000,
+          "y": 2034,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789236600000,
+          "y": 1949,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789237200000,
+          "y": 1786,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789237800000,
+          "y": 2130,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789238400000,
+          "y": 1919,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789239000000,
+          "y": 2150,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789239600000,
+          "y": 1927,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789240200000,
+          "y": 2175,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789240800000,
+          "y": 1975,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789241400000,
+          "y": 2025,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789242000000,
+          "y": 1923,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789242600000,
+          "y": 2009,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789243200000,
+          "y": 1928,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789243800000,
+          "y": 1906,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789244400000,
+          "y": 1890,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789245000000,
+          "y": 1917,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1789231828000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789232400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789233000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789233600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789234200000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789234800000,
+          "y": -8,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789235400000,
+          "y": -3,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789236000000,
+          "y": -3,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789236600000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789237200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789237800000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789238400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789239000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789239600000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789240200000,
+          "y": -4,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789240800000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789241400000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789242000000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789242600000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789243200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789243800000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789244400000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789245000000,
+          "y": 0,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1789231828000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789237200000,
+          "label": "Onimusha: Way of the Sword"
+        },
+        {
+          "value": 1789243200000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789243800000,
+          "label": "Wuthering Waves"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "00:50",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "02:40",
+          "title": "NO HIT SPEEDRUNS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "02:50",
+          "title": "[BADGE HERE] NO HIT SPEEDRUNS🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "04:00",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "04:20",
+          "title": "FIRST PLAYTHROUGH🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3"
+        }
+      ],
+      "currentTitle": "FIRST PLAYTHROUGH🔴OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1704,
+          "peakViewers": 2046,
+          "duration": "1h39m",
+          "followersGained": -17,
+          "followersPerHour": -10.3,
+          "hoursWatched": 2800,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Onimusha: Way of the Sword",
+          "avgViewers": 2002,
+          "peakViewers": 2175,
+          "duration": "1h40m",
+          "followersGained": -5,
+          "followersPerHour": -3,
+          "hoursWatched": 3300,
+          "url": "https://twitchtracker.com/dinah/games/327598602"
+        },
+        {
+          "name": "Wuthering Waves",
+          "avgViewers": 1904,
+          "peakViewers": 1917,
+          "duration": "0h25m",
+          "followersGained": -2,
+          "followersPerHour": -4.8,
+          "hoursWatched": 793,
+          "url": "https://twitchtracker.com/dinah/games/209738946"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1789231828000,
+          "time": "00:50",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789237200000,
+          "time": "02:20",
+          "label": "Onimusha: Way of the Sword"
+        },
+        {
+          "ms": 1789243200000,
+          "time": "04:00",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789243800000,
+          "time": "04:10",
+          "label": "Wuthering Waves"
+        }
+      ],
+      "endMs": 1789245300000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/316057891561",
+        "utc": "2026-09-12 16:50",
+        "durationMinutes": 224,
+        "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴[EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "Onimusha: Way of the Sword",
+          "Wuthering Waves"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/316016370152",
+      "channelSlug": "dinah",
+      "streamId": "316016370152",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Sep 11, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-09-11 20:03:50 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "181",
+        "avgViewers": 1997,
+        "peakViewers": 2744,
+        "hoursWatched": 6024,
+        "followersGained": 15,
+        "followersPerHour": 5,
+        "streamDate": "2026-09-12",
+        "started": "2026-09-12 04:03:50",
+        "ended": "2026-09-12 07:05:00"
+      },
+      "startMs": 1789157030000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1789157030000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789157400000,
+          "y": 175,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789158000000,
+          "y": 1326,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789158600000,
+          "y": 1706,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789159200000,
+          "y": 1721,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789159800000,
+          "y": 1719,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789160400000,
+          "y": 1477,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789161000000,
+          "y": 2175,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789161600000,
+          "y": 2174,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789162200000,
+          "y": 2210,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789162800000,
+          "y": 2110,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789163400000,
+          "y": 2197,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789164000000,
+          "y": 2293,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789164600000,
+          "y": 2405,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789165200000,
+          "y": 2186,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789165800000,
+          "y": 2325,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789166400000,
+          "y": 2285,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789167000000,
+          "y": 2744,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789167600000,
+          "y": 2724,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1789157030000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789157400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789158000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789158600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789159200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789159800000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789160400000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789161000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789161600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789162200000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789162800000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789163400000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789164000000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789164600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789165200000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789165800000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789166400000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789167000000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789167600000,
+          "y": 0,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1789157030000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789161000000,
+          "label": "Marvel Rivals"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "04:03",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "05:10",
+          "title": "HOLY RIVALS DESTRUCTION OMG🔴Marvel Rivals Season 10 #Gorr #MarvelRivalsSeason10 #ad !gorr🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "05:20",
+          "title": "GIFT CODES HERE COME JOIN (serious)🔴Marvel Rivals Season 10 #Gorr #MarvelRivalsSeason10 #ad !gorr🔴EN/中文/粤语]🔴!tier3"
+        }
+      ],
+      "currentTitle": "GIFT CODES HERE COME JOIN (serious)🔴Marvel Rivals Season 10 #Gorr #MarvelRivalsSeason10 #ad !gorr🔴EN/中文/粤语]🔴!tier3",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1354,
+          "peakViewers": 1721,
+          "duration": "1h6m",
+          "followersGained": 2,
+          "followersPerHour": 1.8,
+          "hoursWatched": 1500,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Marvel Rivals",
+          "avgViewers": 2319,
+          "peakViewers": 2744,
+          "duration": "1h55m",
+          "followersGained": 13,
+          "followersPerHour": 6.8,
+          "hoursWatched": 4400,
+          "url": "https://twitchtracker.com/dinah/games/1264310518"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1789157030000,
+          "time": "04:03",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789161000000,
+          "time": "05:10",
+          "label": "Marvel Rivals"
+        }
+      ],
+      "endMs": 1789167900000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/316016370152",
+        "utc": "2026-09-11 20:03",
+        "durationMinutes": 181,
+        "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "Marvel Rivals"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/316012193512",
+      "channelSlug": "dinah",
+      "streamId": "316012193512",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Sep 10, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-09-10 14:37:57 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "317",
+        "avgViewers": 2021,
+        "peakViewers": 2419,
+        "hoursWatched": 10677,
+        "followersGained": 51,
+        "followersPerHour": 9.7,
+        "streamDate": "2026-09-10",
+        "started": "2026-09-10 22:37:57",
+        "ended": "2026-09-11 03:55:00"
+      },
+      "startMs": 1789051077000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1789051077000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789051200000,
+          "y": 126,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789051800000,
+          "y": 1267,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789052400000,
+          "y": 1839,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789053000000,
+          "y": 2008,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789053600000,
+          "y": 2054,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789054200000,
+          "y": 2362,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789054800000,
+          "y": 2419,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789055400000,
+          "y": 2058,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789056000000,
+          "y": 2003,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789056600000,
+          "y": 2048,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789057200000,
+          "y": 2129,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789057800000,
+          "y": 2137,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789058400000,
+          "y": 2073,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789059000000,
+          "y": 2078,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789059600000,
+          "y": 2097,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789060200000,
+          "y": 2038,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789060800000,
+          "y": 2076,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789061400000,
+          "y": 2098,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789062000000,
+          "y": 2143,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789062600000,
+          "y": 2011,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789063200000,
+          "y": 2028,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789063800000,
+          "y": 1878,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789065000000,
+          "y": 1991,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789065600000,
+          "y": 2021,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789066200000,
+          "y": 1923,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789067400000,
+          "y": 2012,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789068000000,
+          "y": 2041,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789068600000,
+          "y": 1922,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789069200000,
+          "y": 1955,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1789069800000,
+          "y": 1912,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1789051077000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789051200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789051800000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789052400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789053000000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789053600000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789054200000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789054800000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789055400000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789056000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789056600000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789057200000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789057800000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789058400000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789059000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789059600000,
+          "y": -1,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789060200000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789060800000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789061400000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789062000000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789062600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789063200000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789063800000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789065000000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789065600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789066200000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789067400000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789068000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789068600000,
+          "y": -2,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1789069200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1789069800000,
+          "y": 4,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1789051077000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1789056000000,
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "value": 1789063800000,
+          "label": "Counter-Strike"
+        },
+        {
+          "value": 1789065000000,
+          "label": "NARAKA: BLADEPOINT"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "22:37",
+          "title": "CP TIME!! BUT YAP FIRST THEN CP🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "00:00",
+          "title": "CP TIME!! FIRST TIME!!!🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "02:10",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !ggdrop #ad"
+        },
+        {
+          "time": "02:30",
+          "title": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka"
+        }
+      ],
+      "currentTitle": "OMG BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 2001,
+          "peakViewers": 2419,
+          "duration": "1h22m",
+          "followersGained": 8,
+          "followersPerHour": 5.9,
+          "hoursWatched": 2700,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Cyberpunk 2077",
+          "avgViewers": 2074,
+          "peakViewers": 2143,
+          "duration": "2h10m",
+          "followersGained": 32,
+          "followersPerHour": 14.8,
+          "hoursWatched": 4500,
+          "url": "https://twitchtracker.com/dinah/games/65876"
+        },
+        {
+          "name": "Counter-Strike",
+          "avgViewers": 1878,
+          "peakViewers": 1878,
+          "duration": "0h20m",
+          "followersGained": 3,
+          "followersPerHour": 9,
+          "hoursWatched": 626,
+          "url": "https://twitchtracker.com/dinah/games/32399"
+        },
+        {
+          "name": "NARAKA: BLADEPOINT",
+          "avgViewers": 1972,
+          "peakViewers": 2041,
+          "duration": "1h25m",
+          "followersGained": 8,
+          "followersPerHour": 5.6,
+          "hoursWatched": 2800,
+          "url": "https://twitchtracker.com/dinah/games/515474"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1789051077000,
+          "time": "22:37",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1789056000000,
+          "time": "00:00",
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "ms": 1789063800000,
+          "time": "02:10",
+          "label": "Counter-Strike"
+        },
+        {
+          "ms": 1789065000000,
+          "time": "02:30",
+          "label": "NARAKA: BLADEPOINT"
+        }
+      ],
+      "endMs": 1789070100000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/316012193512",
+        "utc": "2026-09-10 14:37",
+        "durationMinutes": 317,
+        "title": "CP TIME!! BUT YAP FIRST THEN CP🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "Cyberpunk 2077",
+          "Counter-Strike"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/315969619176",
+      "channelSlug": "dinah",
+      "streamId": "315969619176",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Aug 29, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-08-29 16:32:43 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "322",
+        "avgViewers": 2104,
+        "peakViewers": 2392,
+        "hoursWatched": 11291,
+        "followersGained": 270,
+        "followersPerHour": 50.3,
+        "streamDate": "2026-08-30",
+        "started": "2026-08-30 00:32:43",
+        "ended": "2026-08-30 05:55:00"
+      },
+      "startMs": 1788021163000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1788021163000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788021600000,
+          "y": 221,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788022200000,
+          "y": 1628,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788022800000,
+          "y": 1869,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788023400000,
+          "y": 2081,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788024000000,
+          "y": 2097,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788024600000,
+          "y": 2214,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788025200000,
+          "y": 2392,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788025800000,
+          "y": 2123,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788026400000,
+          "y": 2045,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788027000000,
+          "y": 2260,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788027600000,
+          "y": 2261,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788028200000,
+          "y": 2308,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788028800000,
+          "y": 2308,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788029400000,
+          "y": 2259,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788030000000,
+          "y": 2267,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788030600000,
+          "y": 2301,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788031200000,
+          "y": 2322,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788031800000,
+          "y": 2226,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788032400000,
+          "y": 2264,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788033000000,
+          "y": 2175,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788033600000,
+          "y": 2185,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788034200000,
+          "y": 2222,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788034800000,
+          "y": 2237,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788035400000,
+          "y": 2145,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788036000000,
+          "y": 2192,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788036600000,
+          "y": 2188,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788037200000,
+          "y": 2233,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788037800000,
+          "y": 2192,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788038400000,
+          "y": 2265,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788039000000,
+          "y": 1948,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788039600000,
+          "y": 1879,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1788040200000,
+          "y": 2010,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1788021163000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788021600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788022200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788022800000,
+          "y": 25,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788023400000,
+          "y": 16,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788024000000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788024600000,
+          "y": 24,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788025200000,
+          "y": 11,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788025800000,
+          "y": 34,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788026400000,
+          "y": 13,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788027000000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788027600000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788028200000,
+          "y": 16,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788028800000,
+          "y": 13,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788029400000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788030000000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788030600000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788031200000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788031800000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788032400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788033000000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788033600000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788034200000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788034800000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788035400000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788036000000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788036600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788037200000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788037800000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788038400000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788039000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788039600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1788040200000,
+          "y": 2,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1788021163000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1788025800000,
+          "label": "Variety"
+        },
+        {
+          "value": 1788027000000,
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "value": 1788034800000,
+          "label": "NARAKA: BLADEPOINT"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "00:32",
+          "title": "CP TIME!! BUT YAP FIRST THEN CP🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka"
+        },
+        {
+          "time": "01:50",
+          "title": "FIRST TIME CP EVER🔴LOVING IT SO MUCH🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka"
+        },
+        {
+          "time": "04:20",
+          "title": "WE BACK🔴LOVING IT SO MUCH🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka"
+        }
+      ],
+      "currentTitle": "WE BACK🔴LOVING IT SO MUCH🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1786,
+          "peakViewers": 2392,
+          "duration": "1h17m",
+          "followersGained": 84,
+          "followersPerHour": 65.5,
+          "hoursWatched": 2300,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Variety",
+          "avgViewers": 2084,
+          "peakViewers": 2123,
+          "duration": "0h20m",
+          "followersGained": 47,
+          "followersPerHour": 141,
+          "hoursWatched": 694,
+          "url": "https://twitchtracker.com/dinah/games/0"
+        },
+        {
+          "name": "Cyberpunk 2077",
+          "avgViewers": 2258,
+          "peakViewers": 2322,
+          "duration": "2h10m",
+          "followersGained": 108,
+          "followersPerHour": 49.8,
+          "hoursWatched": 4900,
+          "url": "https://twitchtracker.com/dinah/games/65876"
+        },
+        {
+          "name": "NARAKA: BLADEPOINT",
+          "avgViewers": 2129,
+          "peakViewers": 2265,
+          "duration": "1h35m",
+          "followersGained": 31,
+          "followersPerHour": 19.6,
+          "hoursWatched": 3400,
+          "url": "https://twitchtracker.com/dinah/games/515474"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1788021163000,
+          "time": "00:32",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1788025800000,
+          "time": "01:50",
+          "label": "Variety"
+        },
+        {
+          "ms": 1788027000000,
+          "time": "02:10",
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "ms": 1788034800000,
+          "time": "04:20",
+          "label": "NARAKA: BLADEPOINT"
+        }
+      ],
+      "endMs": 1788040500000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/315969619176",
+        "utc": "2026-08-29 16:32",
+        "durationMinutes": 322,
+        "title": "CP TIME!! BUT YAP FIRST THEN CP🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka",
+        "games": [
+          "Just Chatting",
+          "Variety",
+          "Cyberpunk 2077"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/315965518184",
+      "channelSlug": "dinah",
+      "streamId": "315965518184",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Aug 28, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-08-28 15:16:09 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "398",
+        "avgViewers": 2131,
+        "peakViewers": 2536,
+        "hoursWatched": 14135,
+        "followersGained": 388,
+        "followersPerHour": 58.5,
+        "streamDate": "2026-08-28",
+        "started": "2026-08-28 23:16:09",
+        "ended": "2026-08-29 05:55:00"
+      },
+      "startMs": 1787930169000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1787930169000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787930400000,
+          "y": 238,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787931000000,
+          "y": 1591,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787931600000,
+          "y": 1982,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787932200000,
+          "y": 2041,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787932800000,
+          "y": 2318,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787933400000,
+          "y": 2288,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787934000000,
+          "y": 2189,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787934600000,
+          "y": 1995,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787935200000,
+          "y": 2015,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787935800000,
+          "y": 2031,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787936400000,
+          "y": 2258,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787937000000,
+          "y": 2173,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787937600000,
+          "y": 2210,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787938200000,
+          "y": 2088,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787938800000,
+          "y": 2266,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787939400000,
+          "y": 2230,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787940000000,
+          "y": 2276,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787940600000,
+          "y": 2071,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787941200000,
+          "y": 2257,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787941800000,
+          "y": 2139,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787942400000,
+          "y": 2096,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787943000000,
+          "y": 1873,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787943600000,
+          "y": 2095,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787944200000,
+          "y": 2278,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787944800000,
+          "y": 2440,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787945400000,
+          "y": 2259,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787946000000,
+          "y": 2428,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787946600000,
+          "y": 2443,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787947200000,
+          "y": 2536,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787947800000,
+          "y": 2279,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787948400000,
+          "y": 2157,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787949000000,
+          "y": 1944,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787949600000,
+          "y": 2067,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787950200000,
+          "y": 1740,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787950800000,
+          "y": 1893,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787951400000,
+          "y": 1830,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787952000000,
+          "y": 2068,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787952600000,
+          "y": 1999,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787953200000,
+          "y": 2225,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787953800000,
+          "y": 2052,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1787930169000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787930400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787931000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787931600000,
+          "y": 23,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787932200000,
+          "y": 18,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787932800000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787933400000,
+          "y": 21,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787934000000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787934600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787935200000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787935800000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787936400000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787937000000,
+          "y": 11,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787937600000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787938200000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787938800000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787939400000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787940000000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787940600000,
+          "y": 13,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787941200000,
+          "y": 19,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787941800000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787942400000,
+          "y": 13,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787943000000,
+          "y": 13,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787943600000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787944200000,
+          "y": 12,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787944800000,
+          "y": 9,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787945400000,
+          "y": 18,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787946000000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787946600000,
+          "y": 18,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787947200000,
+          "y": 13,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787947800000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787948400000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787949000000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787949600000,
+          "y": 11,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787950200000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787950800000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787951400000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787952000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787952600000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787953200000,
+          "y": 10,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787953800000,
+          "y": 11,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1787930169000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1787934000000,
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "value": 1787948400000,
+          "label": "NARAKA: BLADEPOINT"
+        },
+        {
+          "value": 1787953800000,
+          "label": "Just Chatting"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "23:16",
+          "title": "ITS MY FIRST TIME...🔴HOLY MOLY🔴BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "00:20",
+          "title": "FIRST EVER RUN THROUGH OF CP🔴MY FIRST TIME....🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "04:20",
+          "title": "MY FIRST TIME....🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "04:30",
+          "title": "NARAKA ON MY BLADE TILL IT POINTS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka"
+        },
+        {
+          "time": "05:50",
+          "title": "ITS MY FIRST TIME...🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka"
+        }
+      ],
+      "currentTitle": "ITS MY FIRST TIME...🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3 !naraka",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 2045,
+          "peakViewers": 2318,
+          "duration": "1h8m",
+          "followersGained": 80,
+          "followersPerHour": 70.6,
+          "hoursWatched": 2300,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Cyberpunk 2077",
+          "avgViewers": 2205,
+          "peakViewers": 2536,
+          "duration": "4h",
+          "followersGained": 238,
+          "followersPerHour": 59.5,
+          "hoursWatched": 8800,
+          "url": "https://twitchtracker.com/dinah/games/65876"
+        },
+        {
+          "name": "NARAKA: BLADEPOINT",
+          "avgViewers": 1991,
+          "peakViewers": 2225,
+          "duration": "1h30m",
+          "followersGained": 70,
+          "followersPerHour": 46.7,
+          "hoursWatched": 3000,
+          "url": "https://twitchtracker.com/dinah/games/515474"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1787930169000,
+          "time": "23:16",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1787934000000,
+          "time": "00:20",
+          "label": "Cyberpunk 2077"
+        },
+        {
+          "ms": 1787948400000,
+          "time": "04:20",
+          "label": "NARAKA: BLADEPOINT"
+        },
+        {
+          "ms": 1787953800000,
+          "time": "05:50",
+          "label": "Just Chatting"
+        }
+      ],
+      "endMs": 1787954100000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/315965518184",
+        "utc": "2026-08-28 15:16",
+        "durationMinutes": 398,
+        "title": "ITS MY FIRST TIME...🔴HOLY MOLY🔴BIG NEWS🔴CLICK NOW🔴DO NOT MISS THIS🔴YAPPING THEN EPIC GAMER DESTRUCTION🔴MONEY🔴EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "Cyberpunk 2077",
+          "NARAKA: BLADEPOINT"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/315954930792",
+      "channelSlug": "dinah",
+      "streamId": "315954930792",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Aug 25, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-08-25 19:45:50 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "149",
+        "avgViewers": 2005,
+        "peakViewers": 2246,
+        "hoursWatched": 4979,
+        "followersGained": 55,
+        "followersPerHour": 22.1,
+        "streamDate": "2026-08-26",
+        "started": "2026-08-26 03:45:50",
+        "ended": "2026-08-26 06:15:00"
+      },
+      "startMs": 1787687150000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1787687150000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787687400000,
+          "y": 341,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787688000000,
+          "y": 1707,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787688600000,
+          "y": 1914,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787689200000,
+          "y": 2036,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787689800000,
+          "y": 1923,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787690400000,
+          "y": 2071,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787691000000,
+          "y": 1968,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787691600000,
+          "y": 2143,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787692200000,
+          "y": 1918,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787692800000,
+          "y": 2103,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787693400000,
+          "y": 1951,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787694000000,
+          "y": 2246,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787694600000,
+          "y": 1916,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787695200000,
+          "y": 2211,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787695800000,
+          "y": 1963,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1787687150000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787687400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787688000000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787688600000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787689200000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787689800000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787690400000,
+          "y": 6,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787691000000,
+          "y": 3,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787691600000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787692200000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787692800000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787693400000,
+          "y": 7,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787694000000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787694600000,
+          "y": 1,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787695200000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787695800000,
+          "y": 2,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1787687150000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1787689200000,
+          "label": "Once Human"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "03:45",
+          "title": "QUICK GAMESCOM STREAM🔴LONG STREAM TOMORROW🔴OMG🔴WHAT IS THAT🔴SURELY NOT🔴PISSCHILLMAXXING🔴NOT A DRILL🔴EN/中文/粤语]🔴!tier3"
+        },
+        {
+          "time": "04:20",
+          "title": "ONCE HUMAN CONSOLE LAUNCH🔴!oncehumanconsole !receiptchallenge🔴EN/中文/粤语]🔴!tier3"
+        }
+      ],
+      "currentTitle": "ONCE HUMAN CONSOLE LAUNCH🔴!oncehumanconsole !receiptchallenge🔴EN/中文/粤语]🔴!tier3",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 1811,
+          "peakViewers": 1914,
+          "duration": "0h34m",
+          "followersGained": 4,
+          "followersPerHour": 7.1,
+          "hoursWatched": 1000,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Once Human",
+          "avgViewers": 2037,
+          "peakViewers": 2246,
+          "duration": "1h55m",
+          "followersGained": 51,
+          "followersPerHour": 26.6,
+          "hoursWatched": 3900,
+          "url": "https://twitchtracker.com/dinah/games/1441208453"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1787687150000,
+          "time": "03:45",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1787689200000,
+          "time": "04:20",
+          "label": "Once Human"
+        }
+      ],
+      "endMs": 1787696100000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/315954930792",
+        "utc": "2026-08-25 19:45",
+        "durationMinutes": 149,
+        "title": "QUICK GAMESCOM STREAM🔴LONG STREAM TOMORROW🔴OMG🔴WHAT IS THAT🔴SURELY NOT🔴PISSCHILLMAXXING🔴NOT A DRILL🔴EN/中文/粤语]🔴!tier3",
+        "games": [
+          "Just Chatting",
+          "Once Human"
+        ]
+      }
+    },
+    {
+      "sourceUrl": "https://twitchtracker.com/dinah/streams/315936772712",
+      "channelSlug": "dinah",
+      "streamId": "315936772712",
+      "channelName": "dinah",
+      "channelId": 764755560,
+      "channelCreatedAt": "2022-01-22",
+      "pageTitle": "Dinah - Stream Aug 20, 2026 - Stats on viewers, followers, subscribers; VOD and clips · TwitchTracker",
+      "description": "Dinah stream on 2026-08-20 19:08:23 - evaluate stats, view chart, watch VOD.",
+      "summary": {
+        "rank": 1660,
+        "duration": "146",
+        "avgViewers": 1714,
+        "peakViewers": 2101,
+        "hoursWatched": 4170,
+        "followersGained": 26,
+        "followersPerHour": 10.7,
+        "streamDate": "2026-08-21",
+        "started": "2026-08-21 03:08:23",
+        "ended": "2026-08-21 05:35:00"
+      },
+      "startMs": 1787252903000,
+      "chartUnavailable": false,
+      "viewerPoints": [
+        {
+          "x": 1787252903000,
+          "y": 0,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787253600000,
+          "y": 180,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787254200000,
+          "y": 1035,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787254800000,
+          "y": 1374,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787255400000,
+          "y": 1765,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787256000000,
+          "y": 1796,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787256600000,
+          "y": 2033,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787257200000,
+          "y": 2024,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787257800000,
+          "y": 2003,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787258400000,
+          "y": 1873,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787259000000,
+          "y": 2073,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787259600000,
+          "y": 1900,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787260200000,
+          "y": 2101,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787260800000,
+          "y": 1927,
+          "color": "#18BC9C"
+        },
+        {
+          "x": 1787261400000,
+          "y": 1913,
+          "color": "#18BC9C"
+        }
+      ],
+      "followerPoints": [
+        {
+          "x": 1787252903000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787253600000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787254200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787254800000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787255400000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787256000000,
+          "y": 8,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787256600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787257200000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787257800000,
+          "y": 5,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787258400000,
+          "y": 4,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787259000000,
+          "y": -3,
+          "color": "#E74C3C"
+        },
+        {
+          "x": 1787259600000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787260200000,
+          "y": 2,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787260800000,
+          "y": 0,
+          "color": "#3498DB"
+        },
+        {
+          "x": 1787261400000,
+          "y": 1,
+          "color": "#3498DB"
+        }
+      ],
+      "plotLines": [
+        {
+          "value": 1787252903000,
+          "label": "Just Chatting"
+        },
+        {
+          "value": 1787254200000,
+          "label": "Wuthering Waves"
+        }
+      ],
+      "titleChanges": [
+        {
+          "time": "03:08",
+          "title": "SURPRISE STREAM🔴WUWA 3.6 IS HERE🔴OMG🔴WHAT IS THAT🔴SURELY NOT🔴PISSCHILLMAXXING🔴NOT A DRILL🔴EN/中文/粤语]🔴!tier3 #ad"
+        }
+      ],
+      "currentTitle": "SURPRISE STREAM🔴WUWA 3.6 IS HERE🔴OMG🔴WHAT IS THAT🔴SURELY NOT🔴PISSCHILLMAXXING🔴NOT A DRILL🔴EN/中文/粤语]🔴!tier3 #ad",
+      "games": [
+        {
+          "name": "Just Chatting",
+          "avgViewers": 180,
+          "peakViewers": 180,
+          "duration": "0h21m",
+          "followersGained": 0,
+          "followersPerHour": 0,
+          "hoursWatched": 63,
+          "url": "https://twitchtracker.com/dinah/games/509658"
+        },
+        {
+          "name": "Wuthering Waves",
+          "avgViewers": 1832,
+          "peakViewers": 2101,
+          "duration": "2h5m",
+          "followersGained": 26,
+          "followersPerHour": 12.5,
+          "hoursWatched": 3800,
+          "url": "https://twitchtracker.com/dinah/games/209738946"
+        }
+      ],
+      "clips": [],
+      "contentMarkers": [
+        {
+          "ms": 1787252903000,
+          "time": "03:08",
+          "label": "Just Chatting"
+        },
+        {
+          "ms": 1787254200000,
+          "time": "03:30",
+          "label": "Wuthering Waves"
+        }
+      ],
+      "endMs": 1787261700000,
+      "live": false,
+      "listing": {
+        "url": "https://twitchtracker.com/dinah/streams/315936772712",
+        "utc": "2026-08-20 19:08",
+        "durationMinutes": 146,
+        "title": "SURPRISE STREAM🔴WUWA 3.6 IS HERE🔴OMG🔴WHAT IS THAT🔴SURELY NOT🔴PISSCHILLMAXXING🔴NOT A DRILL🔴EN/中文/粤语]🔴!tier3 #ad",
+        "games": [
+          "Just Chatting",
+          "Wuthering Waves"
+        ]
+      }
+    }
+  ]
+}
